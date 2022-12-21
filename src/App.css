@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+ 
+
+.demo {
+  position: absolute;
+  top: 0;
+  margin-top: 20%;
+  margin-left: 5%;
+  font-size: 70px;
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* .Sub:hover .background{
+  opacity: 0.5;
+} */
+.graph:hover {
+  /* background-color: yellow; */
+  opacity: 0.3;
+}
+
+.para {
+  text-align: center;
+  margin-top: 20px;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+  .cont {
+    margin-top: 40px;
+    display: block;
+  }
+}
+
+.container h1 {
+  width: 500px;
+}
+
+@media screen and (max-width: 400px) {
+
+  .background {
+    width: 100%;
+    position: relative;
+    filter: brightness(50%);
+  }
+
+  .ground {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+
+  .demo {
+    position: absolute;
+    top: 0;
+    margin-top: 20%;
+    margin-left: 5%;
+    font-size: 35px;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+}
+
+.ground {
+  width: 50%;
+  height: 50%;
+}
+
+.fluid h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fluid p {
+  font-size: large;
+}
+
+button {
+  margin-top: 20px;
+  width: 40%;
+  height: 10%;
+  background-color: #f9f9f9;
+  border-color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.app {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.demo1 {
+  color: white;
+
+}
+
+.grou {
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 320px) {
+  .app {
+    margin-top: 40px;
+    display: block;
+  }
+}
+
+.demo2 {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.pic {
+  margin-top: 60px;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 60px;
+
+}
+
+.ground {
+  width: 50%;
+  /* height: 50%; */
+}
+
+.demo3 {
+  font-size: small;
+  margin-left: 40px;
+}
+
+.back {
+  font-weight: bold;
+}
+
+.name {
+  width: 90%;
+  height: 50%;
+}
+
+/* @media screen and (max-width: 320px) {
+  .name {
+    width: 100%;
+  }
+} */
+
+.push {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    /* margin-top: 40px; */
+    display: block;
+  }
+}
+
+/* .q{
+  margin-top:200px;
+  position: relative;
+}
+.w{
+  position: absolute;
+  margin-top: 500px;
+  margin-left:100px; 
+} */
+
+.po {
+
+  width: 50%;
+  height: 50%;
+  margin-left: 20%;
+}
+
+.pop {
+  margin-top: 100px;
+}
+
+.subject {
+  margin-top: 40px;
+}
+
+.subject h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subject p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subject1 {
+  margin-top: 40px;
+  margin-left: 600px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.subject1 h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subject1 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  .subject1 {
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+}
+
+.subject2 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.subject2 h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.slide {
+  margin-top: 60px;
+}
+
+.footer ul li a {
+  padding-top: 20px;
+  color: black;
+  color: #f9f9f9;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.767);
+  color: #f9f9f9;
+  margin-top: 50px;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    display: block;
+  }
+}
